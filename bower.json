@@ -1,21 +1,18 @@
 {
-  "name": "bitcore-explorers",
-  "main": "/bitcore-explorers.min.js",
+  "name": "digibyte-explorers",
+  "main": "/digibyte-explorers.min.js",
   "version": "1.0.1",
-  "homepage": "https://github.com/bitpay/bitcore-explorers",
+  "homepage": "https://github.com/digibyte/digibyte-explorers",
   "authors": [
-    "BitPay"
+    "DigiByte"
   ],
-  "description": "Module to query blockchain apis for Bitcore.",
+  "description": "Module to query blockchain apis for DigiByte.js.",
   "moduleType": [
     "globals"
   ],
   "keywords": [
     "bitcoin",
-    "bitcore",
-    "btc",
-    "satoshi",
-    "insight"
+    "digibyte"
   ],
   "license": "MIT",
   "ignore": [

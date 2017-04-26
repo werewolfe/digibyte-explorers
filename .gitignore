@@ -1,8 +1,8 @@
 *.sw[a-z]
 coverage
 node_modules
-bitcore-explorers.js
-bitcore-explorers.min.js
+digibyte-explorers.js
+digibyte-explorers.min.js
 
 lib/errors/index.js
 npm-debug.log

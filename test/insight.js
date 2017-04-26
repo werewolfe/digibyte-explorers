@@ -3,14 +3,14 @@
 var sinon = require('sinon');
 var should = require('chai').should();
 var expect = require('chai').expect;
-var bitcore = require('bitcore-lib');
+var digibyte = require('digibyte');
 var explorers = require('../');
 
 var Insight = explorers.Insight;
-var Address = bitcore.Address;
-var Transaction = bitcore.Transaction;
+var Address = digibyte.Address;
+var Transaction = digibyte.Transaction;
 var AddressInfo = explorers.models.AddressInfo;
-var Networks = bitcore.Networks;
+var Networks = digibyte.Networks;
 
 describe('Insight', function() {
 
@@ -20,7 +20,7 @@ describe('Insight', function() {
       should.exist(insight.url);
       should.exist(insight.network);
       if (insight.network === Networks.livenet) {
-        insight.url.should.equal('https://insight.bitpay.com');
+        insight.url.should.equal('https://digiexplorer.info');
       } else if (insight.network === Networks.testnet) {
         insight.url.should.equal('https://test-insight.bitpay.com');
       }
@@ -98,7 +98,7 @@ describe('Insight', function() {
       }, [invalidUtxo]);
       insight.getUtxos(address, function(error, unspent) {
         expect(error).to.exist;
-        expect(error.name).to.equal('bitcore.ErrorInvalidArgument');
+        expect(error.name).to.equal('digibyte.ErrorInvalidArgument');
         expect(error.toString()).to.contain('scriptPubKey');
         callback();
       });

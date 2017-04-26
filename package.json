@@ -1,7 +1,7 @@
 {
-  "name": "bitcore-explorers",
+  "name": "digibyte-explorers",
   "version": "1.0.1",
-  "description": "Module to query blockchain apis for Bitcore.",
+  "description": "Module to query blockchain apis for DigiByte.js.",
   "main": "index.js",
   "directories": {
     "test": "test"
@@ -12,24 +12,24 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/bitpay/bitcore-explorers.git"
+    "url": "https://github.com/digibyte/digibyte-explorers.git"
   },
   "keywords": [
     "bitcoin",
-    "bitcore",
+    "digibyte",
     "insight"
   ],
-  "author": "BitPay",
+  "author": "DigiByte",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/bitpay/bitcore-explorers/issues"
+    "url": "https://github.com/digibyte/digibyte-explorers/issues"
   },
   "browser": {
     "request": "browser-request"
   },
-  "homepage": "https://github.com/bitpay/bitcore-explorers",
+  "homepage": "https://github.com/digibyte/digibyte-explorers",
   "devDependencies": {
-    "bitcore-build": "git://github.com/bitpay/bitcore-build.git",
+    "digibyte-build": "git://github.com/digibyte/digibyte-build.git",
     "brfs": "^1.2.0",
     "browserify": "^8.1.1",
     "chai": "^2.0.0",
@@ -37,7 +37,7 @@
     "sinon": "^1.12.2"
   },
   "dependencies": {
-    "bitcore-lib": "^0.13.14",
+    "digibyte": "^0.14.0",
     "browser-request": "^0.3.3",
     "request": "^2.51.0"
   }
