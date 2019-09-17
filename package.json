@@ -37,7 +37,6 @@
     "sinon": "^1.12.2"
   },
   "dependencies": {
-    "digibyte": "^0.14.0",
     "browser-request": "^0.3.3",
     "request": "^2.51.0"
   }
